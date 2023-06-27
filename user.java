@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class user {
-        String currency;
+        CurrencyType currency;
         double value;
         void userPrint() {
             Scanner amount = new Scanner(System.in);
